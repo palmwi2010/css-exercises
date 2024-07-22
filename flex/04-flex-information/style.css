@@ -12,6 +12,35 @@ img {
   font-weight: 900;
 }
 
+/* solution */
+
+body {
+  text-align: center;
+}
+
+.main {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  padding: 30px 90px;
+  display:flex;
+  justify-content: space-around;
+  gap:90px
+}
+
+.item {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  min-width: 0;
+}
+
+
 /* do not edit this footer */
 .footer {
   position: fixed;
